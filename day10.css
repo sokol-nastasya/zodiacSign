@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/cosmos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 60px;
+    font-family: 'Lovers Quarrel', cursive;
+    color: #FF2551;
+}
+
+header {
+    display: block;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+
+.input_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.month_block, .day_block{
+    display: block;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid #FF2551;
+    border-radius: 5px;
+    color: #FF2551;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 30px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 14px;
+    border: 1px solid #FF2551;
+    border-radius: 5px;
+    color: #FF2551;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 30px;
+}
+
+img {
+    height: 250px;
+}

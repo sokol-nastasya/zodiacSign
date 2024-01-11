@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <link rel="stylesheet" href="./day10.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Your Zodiac sign</h1>
+    </header>
+    <main>
+        <p>To find out your zodiac sign, enter the day and month of your birth</p>
+        <div class="input_form">
+            <div class="month_block">
+                <label for="month">Enter month of your birth:</label>
+                <input type="number" id="month" class="month" placeholder="Enter your month" autocomplete="off">
+            </div>
+            <div class="day_block">
+                <label for="date">Enter day of your birth:</label>
+                <input type="number" id="date" class="date" placeholder="Enter your day" autocomplete="off">
+            </div>
+        </div>
+        <button class="btn_find" id="btn_find">Find out</button>
+        <div class="zodiac_result"></div>
+        <div class="zodiac_image"></div>
+    </main>
+    
+</body>
+<script src="./day10.js"></script>
+</html>
